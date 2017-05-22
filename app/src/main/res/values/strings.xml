@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Sample Weather Application</string>
+    <string name="search_location">Search Location</string>
+    <string name="default_location">Dallas,US</string>
+    <string name="btn_search">Search</string>
+    <string name="btn_gps">GPS</string>
+
+    <string name="open_weather_map_api_key">bafd66414eda2890031a34ceb45619e7</string>
+
+    <string name="location_not_found">Location not found.</string>
+
+    <string name="weather_tornado">&#xf056;</string>
+    <string name="weather_tropical_storm">&#xf0c5;</string>
+    <string name="weather_hurricane">&#xf073;</string>
+    <string name="weather_severe_thunderstorms">&#xf010;</string>
+    <string name="weather_thunderstorms">&#xf010;</string>
+    <string name="weather_mixed_rain_and_snow">&#xf017;</string>
+    <string name="weather_mixed_rain_and_sleet">&#xf017;</string>
+    <string name="weather_mixed_snow_and_sleet">&#xf017;</string>
+    <string name="weather_freezing_drizzle">&#xf076;</string>
+    <string name="weather_drizzle">&#xf01c;</string>
+    <string name="weather_freezing_rain">&#xf076;</string>
+    <string name="weather_showers">&#xf01a;</string>
+    <string name="weather_showers2">&#xf009;</string>
+    <string name="weather_snow_flurries">&#xf00a;</string>
+    <string name="weather_light_snow_shower">&#xf00a;</string>
+    <string name="weather_blowing_snow">&#xf065;</string>
+    <string name="weather_snow">&#xf01b;</string>
+    <string name="weather_hail">&#xf015;</string>
+    <string name="weather_sleet">&#xf0b2;</string>
+    <string name="weather_dust">&#xf063;</string>
+    <string name="weather_foggy">&#xf014;</string>
+    <string name="weather_haze">&#xf0b6;</string>
+    <string name="weather_smoky">&#xf062;</string>
+    <string name="weather_blustery">&#xf050;</string>
+    <string name="weather_windy">&#xf021;</string>
+    <string name="weather_cold">&#xf076;</string>
+    <string name="weather_cloudy">&#xf013;</string>
+    <string name="weather_mostly_cloudy_night">&#xf086;</string>
+    <string name="weather_mostly_cloudy_day">&#xf002;</string>
+    <string name="weather_partly_cloudy_night">&#xf083;</string>
+    <string name="weather_partly_cloudy_day">&#xf07d;</string>
+    <string name="weather_clear_night">&#xf02e;</string>
+    <string name="weather_sunny">&#xf00d;</string>
+    <string name="weather_fair_night">&#xf080;</string>
+    <string name="weather_fair_day">&#xf07d;</string>
+    <string name="weather_mixed_rain_and_hail">&#xf004;</string>
+    <string name="weather_hot">&#xf072;</string>
+    <string name="weather_isolated_thuderstorms">&#xf010;</string>
+    <string name="weather_scattered_thunderstorms">&#xf01e;</string>
+    <string name="weather_scattered_thunderstorms2">&#xf01e;</string>
+    <string name="weather_scattered_showers">&#xf009;</string>
+    <string name="weather_heavy_snow">&#xf01b;</string>
+    <string name="weather_scattered_snow_showers">&#xf00a;</string>
+    <string name="weather_heavy_snow2">&#xf01b;</string>
+    <string name="weather_partly_cloudy">&#xf013;</string>
+    <string name="weather_thundershowers">&#xf00e;</string>
+    <string name="weather_snow_showers">&#xf00a;</string>
+    <string name="weather_isolated_thundershowers">&#xf00e;</string>
+    <string name="weather_not_available">&#xf07b;</string>
+
+    <string name="weather_celsius">&#xf03c;</string>
+    <string name="weather_fahrenheit">&#xf045;</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

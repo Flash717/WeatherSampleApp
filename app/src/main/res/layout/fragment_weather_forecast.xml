@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="25dp"
+    tools:context="com.knaus.sampleweatherapp.WeatherForecastFragment">
+
+    <TextView
+        android:id="@+id/forecast_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Date"
+        />
+
+    <TextView
+        android:id="@+id/forecast_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/forecast_date"
+        android:text="Icon"/>
+
+    <LinearLayout
+        android:id="@+id/forecast_temp_highlow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/forecast_icon"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="15sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/forecast_temp_high"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/forecast_icon"
+            android:text="Temp High"
+            />
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/forecast_temp_low"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/forecast_icon"
+            android:layout_toRightOf="@+id/forecast_temp_high"
+            android:text="Temp Low"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/forecast_condition_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/forecast_temp_highlow"
+        android:text="Condition"/>
+
+</RelativeLayout>
